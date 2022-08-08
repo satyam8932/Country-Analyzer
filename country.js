@@ -35,11 +35,11 @@ searchButton.addEventListener("click", function () {
             </div>
             <div class="content" id="content">
                 <ul class="contents" id="contents">
-                    <li class="item" id="item1">${data[0].name.common}</li>
-                    <li class="item" id="item2"><b>Capital :</b> ${data[0].capital[0]}</li>
-                    <li class="item" id="item3"><b>Population :</b> ${data[0].population}</li>
-                    <li class="item" id="item4"><b>Currency :</b> ${Object.keys(data[0].currencies)[0]}</li>
-                    <li class="item" id="item5"><b>Language :</b> ${Object.values(data[0].languages)}</li>
+                    <li  id="item1">${data[0].name.common}</li>
+                    <li class="item" id="item2"><b id="bold">Capital : </b> ${data[0].capital[0]}</li>
+                    <li class="item" id="item3"><b id="bold">Population : </b> ${data[0].population}</li>
+                    <li class="item" id="item4"><b id="bold">Currency : </b> ${Object.keys(data[0].currencies)[0]}</li>
+                    <li class="item" id="item5"><b id="bold">Language : </b> ${Object.values(data[0].languages)[0]}</li>
                 </ul>
             </div>
         `
